@@ -67,18 +67,17 @@ python kobie.py
 
 ## 🧠 Memory Management
 
-Kobie stores all conversations in kobie_chat_history.json.
-
-If the file grows too large, old conversations are summarized automatically.
-
-This keeps responses fast and relevant.
+- Kobie stores all conversations in kobie_chat_history.json.
+- If the file grows too large, old conversations are summarized automatically.
+- This keeps responses fast and relevant.
 
 ## 🛠 Future Ideas
 
-Web dashboard with Flask or FastAPI
+- Web dashboard with Flask or FastAPI
+- Plugin marketplace
+- Support for multiple AI models
+- Telegram/Discord integration
 
-Plugin marketplace
-
-Support for multiple AI models
-
-Telegram/Discord integration
+## ⚠️ Disclaimer
+- You are responsible for your own OpenAI usage and costs.
+- Python code execution is sandboxed but still execute with caution.
