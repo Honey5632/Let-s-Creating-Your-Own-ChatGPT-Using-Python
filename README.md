@@ -59,11 +59,11 @@ python kobie.py
 ```
 
 ## You can now:
-  1. Chat normally — just type messages.
-  2. Quit — type quit, exit, or bye.
-  3. Change personality — /personality friendly, /personality professional, /personality funny
-  4. Python execution — /py print(2+2)
-  5. Web search — /search latest AI news
+- Chat normally — just type messages.
+- Quit — type quit, exit, or bye.
+- Change personality — /personality friendly, /personality professional, /personality funny
+- Python execution — /py print(2+2)
+- Web search — /search latest AI news
 
 ## 🧠 Memory Management
 
