@@ -19,7 +19,7 @@ def chat_with_ai(prompt):
             ]
         )
 
-        return completion.choices[0].message
+        return completion.choices[0].message.content
     except Exception as e:
         print(f"Error during API request: {e}")
         return "Sorry, I encountered an error while processing your request."
@@ -44,6 +44,7 @@ try:
 
 except KeyboardInterrupt:
     print(f"{Fore.RED}\nProcess ended!!{Fore.RESET}")
+
 
 
 
