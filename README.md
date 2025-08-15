@@ -32,11 +32,21 @@ kobie_chatbot/
 ## 🔧 Installation
 
 ### 1️⃣ Clone the Repository
+Make sure you have Python 3.8+ installed.
 ```bash
 git clone https://github.com/yourusername/kobie-chatbot.git
 cd kobie-chatbot
 ```
-### Install required libraries
+
+### 2️⃣ Install required libraries
 ```bash
 pip install -r requirements.txt
 ```
+
+### 3️⃣ Set Your OpenAI API Key
+
+You’ll need an OpenAI API key for Kobie to work.
+Get it here: https://platform.openai.com
+
+### Edit the API_KEY variable in kobie.py:
+API_KEY = "your_openai_api_key_here"
