@@ -1,0 +1,5 @@
+openai
+colorama
+speechrecognition
+pyttsx3
+requests
