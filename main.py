@@ -7,7 +7,7 @@ from colorama import init, Fore
 init()
 
 # ================= CONFIG =================
-API_KEY = ("Your_api_key")
+API_KEY = ("your_openai_api_key_here")
 HISTORY_FILE = "kobie_chat_history.json"
 MAX_DETAILED_MESSAGES = 10
 # ===========================================
@@ -112,3 +112,4 @@ if __name__ == "__main__":
 
     except KeyboardInterrupt:
         print(f"{Fore.RED}\nProcess ended!!{Fore.RESET}")
+
