@@ -1,9 +1,42 @@
-# Let-s-Creating-Your-Own-ChatGPT-Using-Python
-This project is a Python-based chatbot application that leverages the power of OpenAI’s ChatGPT model using the official OpenAI API. It allows users to have interactive conversations with an AI assistant capable of understanding natural language, answering questions, generating content, and simulating human-like dialogue.
+# 🤖 Kobie AI Chatbot
 
-first install this packegs to terminal using pip install openai, colorama
-thane import
-from openai import OpenAI
-from colorama import init, Fore
+Kobie is your personal AI assistant built in Python — with **persistent memory**, **custom personality modes**, **plugins** (weather, Python code execution, etc.), **voice capabilities**, and **real-time web search integration**.  
+It’s like having your own local ChatGPT, but fully customizable and with saved conversations across sessions.
 
-generate your api key model="gpt-4o-mini"
+---
+
+## ✨ Features
+
+- 💬 **Persistent conversation memory** — Kobie remembers your past chats even after closing the program.
+- 🧠 **Memory optimization** — old chats are summarized to keep performance high.
+- 🎭 **Custom personality modes** — switch between `Friendly`, `Professional`, or `Funny`.
+- 🖥 **Python code executor** — run Python code directly inside the chat.
+- 🌐 **Web search plugin** — fetch real-time data from the internet (Google/DuckDuckGo).
+- ⏱ **Typing effect** for more natural responses.
+- ⚡ **Performance improvements** — keeps last N messages, async-ready structure.
+
+---
+
+## 📂 Project Structure
+
+kobie_chatbot/
+├── kobie.py # Main chatbot script
+├── kobie_chat_history.json # Saved conversation history
+├── weather_api_key.txt # (Optional) Weather API key storage
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation
+
+
+---
+
+## 🔧 Installation
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/yourusername/kobie-chatbot.git
+cd kobie-chatbot
+```
+### Install required libraries
+```bash
+pip install -r requirements.txt
+```
