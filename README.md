@@ -50,3 +50,30 @@ Get it here: https://platform.openai.com
 
 ### Edit the API_KEY variable in kobie.py:
 API_KEY = "your_openai_api_key_here"
+
+## 🚀 Usage
+
+Run the chatbot:
+```python
+python kobie.py
+```
+
+## You can now:
+  1. Chat normally — just type messages.
+  2. Quit — type quit, exit, or bye.
+  3. Change personality — /personality friendly, /personality professional, /personality funny
+  4. Python execution — /py print(2+2)
+  5. Web search — /search latest AI news
+
+## 🧠 Memory Management
+
+Kobie stores all conversations in kobie_chat_history.json.
+If the file grows too large, old conversations are summarized automatically.
+This keeps responses fast and relevant.
+
+## 🛠 Future Ideas
+
+Web dashboard with Flask or FastAPI
+Plugin marketplace
+Support for multiple AI models
+Telegram/Discord integration
